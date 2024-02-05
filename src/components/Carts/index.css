@@ -1,3 +1,43 @@
-.cart-container{
-    color: blueviolet;
+.cart-container {
+  display: flex;
+
+  margin: 10px;
+}
+.cart-image {
+  margin: 10px;
+}
+.cart-image img {
+  width: 30px; /* Make the image fill the container */
+  height: auto; /* Maintain aspect ratio */
+}
+.cart-text {
+  flex: 3; /* Take up remaining space */
+  padding: 10px;
+  text-align: left;
+}
+.total {
+  /* flex: 3; */
+  margin: 10px;
+  padding-top: 86px;
+  float: right;
+  color: black;
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 2500px;
+
+}
+
+.cart-total {
+  color: brown;
+
+  font-size: 20px;
+}
+
+.sum {
+  color: black;
+  font-size: 30px;
 }
